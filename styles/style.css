@@ -1,0 +1,20 @@
+.bg-roxo{
+    background-color: #7E459B;    
+}
+
+.botao{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+a:hover{
+    font-weigth: bold;
+    
+}
+
+.imagem-caroucel{
+object-fit: cover;
+object-position: 0 50%;
+height: 65vh;
+}
+
