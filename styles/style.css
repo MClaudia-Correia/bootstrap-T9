@@ -39,5 +39,11 @@ color: white
 .redes-sociais i{
 font-size: 1.6rem;
 }
-    
+.button:{
+width: 100px;
 }
+.button:hover{
+    opacity: .9;
+}
+    
+
