@@ -24,3 +24,20 @@ height: 65vh;
 .icone-links{
     color: purple
 }
+.habilidades{
+    color: white;
+}
+.sobre{
+color: white
+}
+}
+.bg1-roxo{
+    background-color: #7E459B;
+    max-width: 800px;
+    height: 300%; 
+}
+.redes-sociais i{
+font-size: 1.6rem;
+}
+    
+}
