@@ -45,5 +45,12 @@ width: 100px;
 .button:hover{
     opacity: .9;
 }
-    
+.card{
+    max-width:180px;
+  height:286px;
+
+}
+
+
+
 

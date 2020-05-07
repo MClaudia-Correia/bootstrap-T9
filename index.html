@@ -18,15 +18,15 @@
         <div class="collapse navbar-collapse justify-content-end" id="menudesktop">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link text-white" href="#">Sobre</a>
+              <a class="nav-link text-white" href="#sobre">Sobre</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-white" href="#">Habilidades</a>
+              <a class="nav-link text-white" href="#habilidades">Habilidades</a>
             </li>
            
             
             <li class="nav-item">
-              <a class="nav-link text-white" href="#">Portifólios</a>
+              <a class="nav-link text-white" href="#portifólio">Portifólio</a>
             </li>
           </ul>
           
@@ -76,7 +76,7 @@
     </a>
   </div>
 </section>    
- <section class=" bg-roxo d-flex flex-column flex-lg-row justify-content-lg-around p-4">
+ <section id="habilidades" class="bg-roxo d-flex flex-column flex-lg-row justify-content-lg-around p-4">
 
     <div class="habilidades w-100">
       <h2 class="text-center">Habilidades</h2>
@@ -129,7 +129,7 @@
       </div>
     </div>
 
-    <div class="sobre w-100">
+    <div id="sobre"class="sobre w-100">
       <h2>Sobre</h2>
       <p> 30 anos, mãe e aluna do Bootcamp de Front-end da Reprograma.<br>
         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequuntur tempore laborum repellat saepe, voluptas
@@ -137,17 +137,22 @@
 
            <br>Outras áreas de interesse: Ux, Métodologis ágeis, Phyton e Angular.</p><br>
       </div>
-  </section>
-  <div class="card" style="width: 18rem;">
-    <img src="./Eu.jpg" class="card-img-top" alt="minha-foto">
-    <div class="card-body text-center">
-      <h5 class="card-title">Título do Projeto</h5>
-      <p class="card-text text-center">Resumo do projeto</p>
-      <button type="button" class="m-5 btn  bg-roxo text-white m-auto" data-toggle="modal" data-target="#modal1">
-        Veja mais
-        </button>
-        
-      <!--<a href="#" class="btn btn-primary">Go somewhere</a>-->
+    </section>
+    <section class="diva-mae_cardtitle text-center mmt-5">
+  <!--<section class="mb-5 modal-cards">-->
+      <h2 id="portifólio" class="text-center">Portifólio</h2>
+ <div class="row justify-content-around">
+ 
+      <!--CARD 1-->
+      <div class="card m-5" style="width:18rem">
+        <img src="M de maravilhosacorte.png" class="" alt="foto-mdemaravilhosa">
+        <div class="card-body text-center">
+          <h5 class="card-title"></h5>
+          <p class="card-text text-center">
+          <button type="button" class="m-5 btn  bg-roxo text-white m-auto" data-toggle="modal" data-target="#modal2">
+            Veja mais
+            </button>
+            
     </div>
   </div>
 
@@ -158,13 +163,14 @@
 <div class="modal-dialog" role="document">
   <div class="modal-content">
     <div class="modal-header">
-      <h5 class="modal-title" id="exampleModalLongTitle">Projeto nome</h5>
+      <h5 class="modal-title" id="exampleModalLongTitle">Projeto</h5>
       <button type="button" class="close" data-dismiss="modal" aria-label="Close">
         <span aria-hidden="true">×</span>
       </button>
     </div>
     <div class="modal-body">
-      <p>Aqui vai a descrição do projeto</p>
+      
+      </p>
     </div>
     <div class="modal-footer">
       <button type="button" class="btn bg-roxo text-white" data-dismiss="modal">Fechar</button>
@@ -175,7 +181,65 @@
 </div>
 </div>
 
-<script src="./js/jquery-3.4.1.min.js"></script>
+
+<!--CARD 2-->
+<div class="card m-5" style="width:18rem">
+  <img src="Todolist.png" class="" alt="foto-projeto-js-todolist">
+  <div class="card-body text-center">
+    <h5 class="card-title"></h5>
+    <p class="card-text text-center">
+    <button type="button" class="m-5 btn  bg-roxo text-white m-auto" data-toggle="modal" data-target="#modal2">
+      Veja mais
+      </button>
+      
+  </div>
+</div>
+
+
+
+<!-- Modal 2 -->
+<div class="modal fade" id="modal2" tabindex="-2" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+<div class="modal-dialog" role="document">
+<div class="modal-content">
+  <div class="modal-header">
+    <h5 class="modal-title" id="exampleModalLongTitle"></h5>
+    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+      <span aria-hidden="true">×</span>
+    </button>
+  </div>
+  <div class="modal-body">
+    <p></p>
+  </div>
+  <div class="modal-footer">
+    <button type="button" class="btn bg-roxo text-white" data-dismiss="modal">Fechar</button>
+    <a href="#" target="blank" class="btn bg-roxo text-white">Ver página</a>
+    </div>
+  </div>
+</div>
+</div>
+</section>
+</section>
+
+<footer class="text-center bg-roxo text-white">
+  <p>Feito com amor pela {Reprograma}</p>
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="./js/jquery-3.4.1.min.js"></script>
     <script src="./js/bootstrap.min.js"></script>
     <script src="https://kit.fontawesome.com/4fe8d55b33.js" crossorigin="anonymous"></script>
 
